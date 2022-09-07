@@ -1,11 +1,11 @@
-Date: Thu, 1 Sep 2022 10:53:43 +0200 (CEST)
-Message-ID: <1024796648.12977.1662022423925@296d5edede7b>
+Date: Wed, 7 Sep 2022 08:02:10 +0200 (CEST)
+Message-ID: <586904408.2285.1662530530690@17ac4e43c951>
 Subject: Exported From Confluence
 MIME-Version: 1.0
 Content-Type: multipart/related; 
-	boundary="----=_Part_12976_1082930384.1662022423924"
+	boundary="----=_Part_2284_610932468.1662530530690"
 
-------=_Part_12976_1082930384.1662022423924
+------=_Part_2284_610932468.1662530530690
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/exported.html
@@ -299,6 +299,17 @@ ex.html" class=3D"external-link" rel=3D"nofollow">scikit-learn: machine lea=
 rning in Python =E2=80=94 scikit-learn 1.1.1 documentation</a></p></td>
 </tr>
 <tr>
+<td colspan=3D"1" class=3D"confluenceTd">Pandas, Numpy, Matplotlib</td>
+<td colspan=3D"1" class=3D"confluenceTd">The most common libraries used for=
+ data exploration, preparation and visualisation. It has a huge community a=
+nd literature dedicated to it and is very mature. More details can be found=
+ here:<br><a href=3D"https://pandas.pydata.org/" class=3D"external-link" re=
+l=3D"nofollow">https://pandas.pydata.org/</a><br><a href=3D"https://numpy.o=
+rg/" class=3D"external-link" rel=3D"nofollow">https://numpy.org/</a><br><a =
+href=3D"https://matplotlib.org/" class=3D"external-link" rel=3D"nofollow">h=
+ttps://matplotlib.org/</a></td>
+</tr>
+<tr>
 <td colspan=3D"1" class=3D"confluenceTd">Vanilla JS</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>We rely on using Vanilla Javasc=
 ript. The manipulation of UI Elements required in SLAMD can be managed prop=
@@ -353,4 +364,4 @@ details, check the documentation: <a href=3D"https://www.cypress.io/" class=
     </div>
 </body>
 </html>
-------=_Part_12976_1082930384.1662022423924--
+------=_Part_2284_610932468.1662530530690--
