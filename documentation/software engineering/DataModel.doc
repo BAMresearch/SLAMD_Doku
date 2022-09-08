@@ -1,11 +1,11 @@
-Date: Wed, 7 Sep 2022 08:36:14 +0200 (CEST)
-Message-ID: <51004575.2370.1662532574214@17ac4e43c951>
+Date: Thu, 8 Sep 2022 13:17:20 +0200 (CEST)
+Message-ID: <1942443826.4767.1662635840353@17ac4e43c951>
 Subject: Exported From Confluence
 MIME-Version: 1.0
 Content-Type: multipart/related; 
-	boundary="----=_Part_2369_1720758103.1662532574213"
+	boundary="----=_Part_4766_539094904.1662635840353"
 
-------=_Part_2369_1720758103.1662532574213
+------=_Part_4766_539094904.1662635840353
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/exported.html
@@ -305,18 +305,19 @@ m the session.<br><br></p>
 ass
 class Dataset:
     name: str =3D None
+    target_columns: list[str] =3D None
     dataframe: DataFrame =3D None</pre>=20
 </div>
 </div>
-<p class=3D"auto-cursor-target"><br>'sequential_learning_predictions' are o=
-nly saved temporarily; once a new prediction is made via sequential learnin=
-g, the former is overwritten. This is because we only need one prediction f=
-or a given dataset at a time. Therefore we directly save a Prediction objec=
-t<br>as value of session['sequential_learning_predictions']. The Prediction=
- object itself contains the name of the dataset for which a prediction was =
-made, the prediction result as a dataframe and a metadata dictionary summar=
-izing the conifguration used when predicting, including e.g. values for cur=
-iosity, the chosen algorithm etc.<br><br></p>
+<p class=3D"auto-cursor-target">'sequential_learning_predictions' are only =
+saved temporarily; once a new prediction is made via sequential learning, t=
+he former is overwritten. This is because we only need one prediction for a=
+ given dataset at a time. Therefore we directly save a Prediction object<br=
+>as value of session['sequential_learning_predictions']. The Prediction obj=
+ect itself contains the name of the dataset for which a prediction was made=
+, the prediction result as a dataframe and a metadata dictionary summarizin=
+g the conifguration used when predicting, including e.g. values for curiosi=
+ty, the chosen algorithm etc.<br><br></p>
 <div class=3D"code panel pdl" style=3D"border-width: 1px;">
 <div class=3D"codeContent panelContent pdl">=20
 <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
@@ -331,4 +332,4 @@ class Prediction:
     </div>
 </body>
 </html>
-------=_Part_2369_1720758103.1662532574213--
+------=_Part_4766_539094904.1662635840353--
