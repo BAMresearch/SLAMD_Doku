@@ -1,11 +1,11 @@
-Date: Thu, 1 Sep 2022 10:50:50 +0200 (CEST)
-Message-ID: <1752372237.12975.1662022250518@296d5edede7b>
+Date: Tue, 13 Sep 2022 16:27:47 +0200 (CEST)
+Message-ID: <78386059.7275.1663079267642@17ac4e43c951>
 Subject: Exported From Confluence
 MIME-Version: 1.0
 Content-Type: multipart/related; 
-	boundary="----=_Part_12974_1884341907.1662022250518"
+	boundary="----=_Part_7274_660681451.1663079267642"
 
-------=_Part_12974_1884341907.1662022250518
+------=_Part_7274_660681451.1663079267642
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/exported.html
@@ -234,9 +234,33 @@ d of the content */
     <div class=3D"Section1">
         <p>This document briefly explains the way we handle exceptions with=
 in SLAMD.</p>
+<p><strong><br>General Information about errors and exceptions in SLAMD</st=
+rong><br><br>In general there are two different types of errors which can o=
+ccur:</p>
+<ul style=3D"list-style-type: square;">
+<li>Errors which are handled by the backend but not in the frontend (e.g. w=
+e allow the user to choose csv files from his/her filesystem but only after=
+ uploading we check if a file of the same name already exists in the users =
+session; note that a priori checking in the backend is not possible): In th=
+is case we do not throw an exception but rather validate via WTForm mechani=
+sms and return the corresponding error attributes of the form.</li>
+<li>Situations where the frontend of our app does not allow certain data co=
+nstellations to be send to the backend but which somehow are received by th=
+e backend anyway (e.g. by enabling buttons via developer tools which are di=
+sabled by our app). In this case we do not tolerate the error and instead t=
+reat it as an actual (custom) exception. More details on treatment of such =
+errors can be found below.</li>
+</ul>
+<p>In general, we try to help the user as much as possible by disabling/ena=
+bling elements in the UI and thus guiding towards a proper usage of our app=
+. As a consequence, we are mostly dealing with handling errors of the secon=
+d type. Thus, only in special cases (such as in the file upload example) we=
+ handle errors as in the first bullet point.</p>
+<p><br></p>
+<p><strong>Exceptions: Technical details</strong></p>
 <p>We use the register_error_handler functionality of flask to map http err=
 ors (4xx and 5xx) to specific error pages with naming pattern &lt;STATUS_CO=
-DE&gt;.html, e.g. 404.html. The concrete pages are renderer such that speci=
+DE&gt;.html, e.g. 404.html. The concrete pages are rendered such that speci=
 fic and custom error messages are shown. This is achieved using custom exce=
 ption classes inheriting from the corresponding <a href=3D"https://werkzeug=
 .palletsprojects.com/en/2.1.x/exceptions/" class=3D"external-link" rel=3D"n=
@@ -265,4 +289,4 @@ e in our code (e.g. when requesting a material type which is not supported)=
     </div>
 </body>
 </html>
-------=_Part_12974_1884341907.1662022250518--
+------=_Part_7274_660681451.1663079267642--
