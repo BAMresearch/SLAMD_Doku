@@ -1,0 +1,398 @@
+Date: Wed, 28 Sep 2022 12:44:37 +0200 (CEST)
+Message-ID: <1165462440.20977.1664361877008@17ac4e43c951>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20976_1248671104.1664361877007"
+
+------=_Part_20976_1248671104.1664361877007
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Style Guide</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Style Guide</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1664361876949 {padding: 0px;}
+div.rbtoc1664361876949 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1664361876949 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1664361876949">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#StyleGuide-Pages">Pages</a></li>=20
+<li><a href=3D"#StyleGuide-PageContent">Page Content</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#StyleGuide-Layout">Layout</a></li>=20
+<li><a href=3D"#StyleGuide-Elements">Elements</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#StyleGuide-Infoboxes">Infoboxes</a></li>=20
+<li><a href=3D"#StyleGuide-Tables">Tables</a></li>=20
+<li><a href=3D"#StyleGuide-Accordions">Accordions</a></li>=20
+<li><a href=3D"#StyleGuide-Buttons">Buttons</a></li>=20
+<li><a href=3D"#StyleGuide-Alerts">Alerts</a></li>=20
+</ul> </li>=20
+</ul> </li>=20
+</ul>=20
+</div>
+<p></p>
+<p>This page describes which style concepts are used in our app. Since SLAM=
+D makes heavy use of bootstrap, it is always a good idea to check <a href=
+=3D"https://getbootstrap.com/" class=3D"external-link" rel=3D"nofollow">Boo=
+tstrap Docs</a> for explanations and details.</p>
+<p><br></p>
+<h2 id=3D"StyleGuide-Pages">Pages</h2>
+<ul>
+<li>The app is divided into several main pages, corresponding to major feat=
+ures and steps in the overall workflow.</li>
+<li>Pages are accessible via the navbar or the burger menu in the navbar.</=
+li>
+<li>Pages are ordered left to right in logical order.</li>
+<li>In special cases, major sub-features that do not fit on their parent pa=
+ges may be transferred to sub-pages. These should not be accessible via the=
+ navbar. (Currently the only example of this is the "Targets" page, sub-pag=
+e of the "Discovery"-Page).</li>
+</ul>
+<h2 id=3D"StyleGuide-PageContent">Page Content</h2>
+<h3 id=3D"StyleGuide-Layout">Layout</h3>
+<ul>
+<li>The root element of each page is a bootstrap container, to prevent the =
+page from filling the full width of the screen on larger monitors.</li>
+<li>Every page should be responsive, i.e. work and look pleasing on both sm=
+all and large screens.</li>
+<li>The elements in each page should naturally follow the workflow of the f=
+eature from top to bottom.
+<ul>
+<li>Form elements that represent different steps and should be completed in=
+ a certain natural order should be arranged top to bottom. (Example: The fi=
+rst three elements on the blend page.)</li>
+<li>Form elements that are "optional" or which may only be completed partia=
+lly may be placed next to each other. (Example: The properties on the base =
+page.)</li>
+<li>If required forms are not suited to be placed on top of each other they=
+ may instead be ordered horizontally from left to right. (Example: The prop=
+erties selection on the Discovery page.)</li>
+<li>Avoid mixing required and optional form elements in a single step.</li>
+<li>Avoid mixing top-to-bottom and left-to-right flows.</li>
+</ul></li>
+<li>Page elements are arranged in a table layout using Bootstrap's "row" an=
+d "col" classes.
+<ul>
+<li>Pages are built from a series of rows, containing one or multiple colum=
+ns. Avoid nesting rows inside columns. Keep the number of columns per row c=
+onsistent on each page.</li>
+<li>Use Bootstrap's gutter and margin classes to separate elements using wh=
+itespace.
+<ul>
+<li>Use "g-3" (Gutter size 3) on rows to place gutters between row elements=
+ (except there are good reasons to use a size different than 3 from a ux po=
+int of view).</li>
+<li>Use "mb-3" (Margin bottom size 3) to create space between row elements =
+and between rows (except there are good reasons to use a size different tha=
+n 3 from a ux point of view).</li>
+<li>Always try to place margins below elements. Exception: Use "mt" (Margin=
+ top) to create space between the first page headline and the navbar.</li>
+<li>Prefer using gutters or margins of sizes 3. Exception: From a ux perspe=
+ctive it makes sense to use a different size.&nbsp;&nbsp;</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><br></p>
+<h3 id=3D"StyleGuide-Elements">Elements</h3>
+<h4 id=3D"StyleGuide-Infoboxes">Infoboxes</h4>
+<p>The functionality of each page should be explained in infoboxes.</p>
+<ul>
+<li>Each infobox should explain how to use the relevant elements in clear, =
+concise language, explaining every step along the way. Avoid run on sentenc=
+es.</li>
+<li>Large infoboxes may be turned into collapsibles. (Example: Discovery pa=
+ge)</li>
+<li>Infoboxes may be used to improve the flow of pages by providing padding=
+ and limiting the size of form elements. (Example: Blending page)</li>
+</ul>
+<h4 id=3D"StyleGuide-Tables">Tables</h4>
+<p>Tables are the primary way of displaying data in the app.</p>
+<ul>
+<li>The element containing the table should generally use the "table-respon=
+sive" CSS class. The table element should generally use the "table", "table=
+-bordered", "table-striped", "table-hover" classes.</li>
+<li>If a table is likely to be wide and tall, the container should use the =
+custom "topscroll-table-container" class, and the table element should use =
+the "topscroll-table" class. This will move the horizontal scrollbar of the=
+ table to the top.</li>
+<li>Tables should additionally be placed in accordions.</li>
+</ul>
+<h4 id=3D"StyleGuide-Accordions">Accordions</h4>
+<p>Large page elements should be made collapsible using accordions, especia=
+lly tables.</p>
+<ul>
+<li>Accordions should use Bootstrap's default styling. In particular, they =
+should not be set to "flush".</li>
+<li>Accordions containing information that the user likely needs should be =
+expanded by default using "show" (Example: Base page). Large tables or thos=
+e that would otherwise interfere with the layout should be collapsed by def=
+ault (Example: Top of targets page).</li>
+<li>If an accordion contains a table, the accordion body should be made up =
+of a single div containing the "table-responsive" class. The table element =
+should be immediately inside. This ensure the table is flush with the accor=
+dion.</li>
+</ul>
+<h4 id=3D"StyleGuide-Buttons">Buttons</h4>
+<p>Buttons should adhere to a consistent color scheme and have short, descr=
+iptive labels.</p>
+<ul>
+<li>Use the following Bootstrap color classes for specific purposes:
+<ul>
+<li>"btn-primary" (blue) for buttons that submit, change, or add data.</li>
+<li>"btn-success" (green) for buttons that stage or prepare data for the ne=
+xt stage in a form (without writing anything into the session).</li>
+<li>"btn-danger" (red) for buttons that delete something - either data that=
+ has been staged or data that has already been written.</li>
+<li>"btn-secondary" (grey) for most other actions, in particular cancellati=
+ons.</li>
+</ul></li>
+<li>Avoid using button groups.</li>
+<li>Separate stages of a form using full width "btn-sucess" buttons. (Examp=
+le: Blending page)</li>
+<li>If placing buttons next to each other, place buttons that delete or can=
+cel something to the left, and buttons that submit or proceed with somethin=
+g to the right.</li>
+<li>Use text on large buttons. Use icons on small, self-explanatory buttons=
+.</li>
+<li>Add tooltips, but do not add them to the button elements; instead, use =
+wrapping divs to hold the tooltips. This way the tooltip works even if the =
+button is disabled.</li>
+</ul>
+<h4 id=3D"StyleGuide-Alerts">Alerts</h4>
+<p>Use alerts to display conditional warning or error textboxes.</p>
+<ul>
+<li>Use "alert-warning" to display warnings that the user may choose to ign=
+ore. (Example: Blending page)</li>
+<li>Use "alert-danger" to display warnings that the user needs to resolve. =
+If an error occurs on the backend, use an error page instead.</li>
+<li>Clearly describe the warning and how to resolve it in the textbox.</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_20976_1248671104.1664361877007--
