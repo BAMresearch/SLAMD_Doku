@@ -1,11 +1,11 @@
-Date: Thu, 8 Sep 2022 13:17:20 +0200 (CEST)
-Message-ID: <1942443826.4767.1662635840353@17ac4e43c951>
+Date: Wed, 19 Oct 2022 10:45:47 +0200 (CEST)
+Message-ID: <789601253.261.1666169147277@efe83b11a76b>
 Subject: Exported From Confluence
 MIME-Version: 1.0
 Content-Type: multipart/related; 
-	boundary="----=_Part_4766_539094904.1662635840353"
+	boundary="----=_Part_260_1147046845.1666169147277"
 
-------=_Part_4766_539094904.1662635840353
+------=_Part_260_1147046845.1666169147277
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/exported.html
@@ -232,17 +232,34 @@ d of the content */
 <body>
     <h1>Data Model</h1>
     <div class=3D"Section1">
-        <p>We save data in a server-side session. This data contains inform=
-ation about materials, datasets and predictions. The session contains the f=
-ollowing (custom) keys follows:</p>
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1666169147258 {padding: 0px;}
+div.rbtoc1666169147258 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1666169147258 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1666169147258">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#DataModel-Materials">Materials</a></li>=20
+<li><a href=3D"#DataModel-Datasets">Datasets</a></li>=20
+<li><a href=3D"#DataModel-Predictions">Predictions</a></li>=20
+<li><a href=3D"#DataModel-TSNEPlotData">TSNE Plot Data</a></li>=20
+</ul>=20
+</div>
+<p></p>
+<p>We save data in a server-side session. This data contains information ab=
+out materials, datasets and predictions. The session contains the following=
+ (custom) keys follows:</p>
 <div class=3D"code panel pdl" style=3D"border-width: 1px;">
 <div class=3D"codeContent panelContent pdl">=20
 <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
 : java; gutter: false; theme: Confluence" data-theme=3D"Confluence">[ 'powd=
 er_list', 'liquid_list', 'aggregates_list', 'process_list', 'admixture_list=
-', 'custom_list', datasets', 'sequential_learning_predictions']</pre>=20
+', 'custom_list', datasets', 'sequential_learning_predictions', 'tsne_plot_=
+data']</pre>=20
 </div>
 </div>
+<h3 class=3D"auto-cursor-target" id=3D"DataModel-Materials">Materials</h3>
 <p class=3D"auto-cursor-target"><br>The values of the first six of these co=
 rrespond list of to the respective objects Powder, Liquid, Aggregates, Proc=
 ess and Admixtures. Their properties can be found in the corresponding clas=
@@ -287,6 +304,7 @@ class Material:
     created_from: list[UUID] =3D None</pre>=20
 </div>
 </div>
+<h3 class=3D"auto-cursor-target" id=3D"DataModel-Datasets">Datasets</h3>
 <p class=3D"auto-cursor-target"><br>The value of 'datasets' is a dictionary=
  with keys set by the names of the dataset and value by a representation of=
  the data as a pandas dataframe. We chose this representation as it gives a=
@@ -309,6 +327,8 @@ class Dataset:
     dataframe: DataFrame =3D None</pre>=20
 </div>
 </div>
+<h3 class=3D"auto-cursor-target" id=3D"DataModel-Predictions">Predictions</=
+h3>
 <p class=3D"auto-cursor-target">'sequential_learning_predictions' are only =
 saved temporarily; once a new prediction is made via sequential learning, t=
 he former is overwritten. This is because we only need one prediction for a=
@@ -329,7 +349,27 @@ class Prediction:
     metadata: dict =3D None</pre>=20
 </div>
 </div>
+<h3 class=3D"auto-cursor-target" id=3D"DataModel-TSNEPlotData">TSNE Plot Da=
+ta</h3>
+<p>This is also only saved temporarily after a prediction was made. It is u=
+sed for technical reasons as it allows to not directly create the plot on p=
+redicting but rather as a dedicated request. This improves performance. The=
+ dataclass which we save contains all relevant information required to crea=
+te the plot:<br><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">@datacl=
+ass
+class TSNEPlotData:
+
+    utility: Series =3D None
+    features_df: DataFrame =3D None
+    index_all_labelled: Index =3D None
+    index_none_labelled: Index =3D None</pre>=20
+</div>
+</div>
     </div>
 </body>
 </html>
-------=_Part_4766_539094904.1662635840353--
+------=_Part_260_1147046845.1666169147277--

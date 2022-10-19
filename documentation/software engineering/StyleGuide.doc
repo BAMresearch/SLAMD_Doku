@@ -1,11 +1,11 @@
-Date: Wed, 28 Sep 2022 12:44:37 +0200 (CEST)
-Message-ID: <1165462440.20977.1664361877008@17ac4e43c951>
+Date: Wed, 19 Oct 2022 10:46:40 +0200 (CEST)
+Message-ID: <828594738.269.1666169200494@efe83b11a76b>
 Subject: Exported From Confluence
 MIME-Version: 1.0
 Content-Type: multipart/related; 
-	boundary="----=_Part_20976_1248671104.1664361877007"
+	boundary="----=_Part_268_1422911670.1666169200494"
 
-------=_Part_20976_1248671104.1664361877007
+------=_Part_268_1422911670.1666169200494
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/exported.html
@@ -233,12 +233,12 @@ d of the content */
     <h1>Style Guide</h1>
     <div class=3D"Section1">
         <p><style type=3D"text/css">/*<![CDATA[*/
-div.rbtoc1664361876949 {padding: 0px;}
-div.rbtoc1664361876949 ul {list-style: disc;margin-left: 0px;}
-div.rbtoc1664361876949 li {margin-left: 0px;padding-left: 0px;}
+div.rbtoc1666169200479 {padding: 0px;}
+div.rbtoc1666169200479 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1666169200479 li {margin-left: 0px;padding-left: 0px;}
 
 /*]]>*/</style></p>
-<div class=3D"toc-macro rbtoc1664361876949">=20
+<div class=3D"toc-macro rbtoc1666169200479">=20
 <ul class=3D"toc-indentation">=20
 <li><a href=3D"#StyleGuide-Pages">Pages</a></li>=20
 <li><a href=3D"#StyleGuide-PageContent">Page Content</a>=20
@@ -395,4 +395,4 @@ If an error occurs on the backend, use an error page instead.</li>
     </div>
 </body>
 </html>
-------=_Part_20976_1248671104.1664361877007--
+------=_Part_268_1422911670.1666169200494--

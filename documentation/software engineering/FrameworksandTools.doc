@@ -1,11 +1,11 @@
-Date: Wed, 7 Sep 2022 08:02:10 +0200 (CEST)
-Message-ID: <586904408.2285.1662530530690@17ac4e43c951>
+Date: Wed, 19 Oct 2022 10:46:32 +0200 (CEST)
+Message-ID: <1003606506.267.1666169192180@efe83b11a76b>
 Subject: Exported From Confluence
 MIME-Version: 1.0
 Content-Type: multipart/related; 
-	boundary="----=_Part_2284_610932468.1662530530690"
+	boundary="----=_Part_266_1562559050.1666169192180"
 
-------=_Part_2284_610932468.1662530530690
+------=_Part_266_1562559050.1666169192180
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/exported.html
@@ -310,6 +310,15 @@ href=3D"https://matplotlib.org/" class=3D"external-link" rel=3D"nofollow">h=
 ttps://matplotlib.org/</a></td>
 </tr>
 <tr>
+<td colspan=3D"1" class=3D"confluenceTd">Lolopy</td>
+<td colspan=3D"1" class=3D"confluenceTd">A package which contains a version=
+ of Random Forests with uncertainty estimates. We use it as our metrics, in=
+ addition to weighting predictions and a priori information, can also inclu=
+de an uncertainty term. More details on lolopy can be found here:<br><a hre=
+f=3D"https://github.com/CitrineInformatics/lolo" class=3D"external-link" re=
+l=3D"nofollow">https://github.com/CitrineInformatics/lolo</a></td>
+</tr>
+<tr>
 <td colspan=3D"1" class=3D"confluenceTd">Vanilla JS</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>We rely on using Vanilla Javasc=
 ript. The manipulation of UI Elements required in SLAMD can be managed prop=
@@ -330,7 +339,7 @@ ps you write better programs =E2=80=94 pytest documentation</a></p></td>
 </tr>
 <tr>
 <td colspan=3D"1" class=3D"confluenceTd">Bootstrap</td>
-<td colspan=3D"1" class=3D"confluenceTd"><p>Bootstrap is a well known CSS f=
+<td colspan=3D"1" class=3D"confluenceTd"><p>Bootstrap is a well-known CSS f=
 ramework which provides a grid framework for responsive layout as well as v=
 arious UI Elements such as modals etc. There is extensive documentation. It=
  is simple to integrate it into an app simply by including it in the html h=
@@ -354,7 +363,7 @@ VG icon library for Bootstrap (getbootstrap.com)</a></span></p></td>
 <td colspan=3D"1" class=3D"confluenceTd">Nice Javascript library for writin=
 g acceptance test at the level of the UI. It allows to simulate behaviour b=
 y automating the interaction with the browser. It makes sure our UI behaves=
- as expected. Further, it can be easily integrated within github: For more =
+ as expected. Further, it can be easily integrated within GitHub: For more =
 details, check the documentation: <a href=3D"https://www.cypress.io/" class=
 =3D"external-link" rel=3D"nofollow">Cypress</a></td>
 </tr>
@@ -364,4 +373,4 @@ details, check the documentation: <a href=3D"https://www.cypress.io/" class=
     </div>
 </body>
 </html>
-------=_Part_2284_610932468.1662530530690--
+------=_Part_266_1562559050.1666169192180--
